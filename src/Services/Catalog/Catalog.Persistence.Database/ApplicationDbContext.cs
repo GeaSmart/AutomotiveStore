@@ -32,7 +32,5 @@ namespace Catalog.Persistence.Database
             new ProductConfiguration(modelBuilder.Entity<Product>());
             new ProductInStockConfiguration(modelBuilder.Entity<ProductInStock>());
         }
-
-
     }
 }
